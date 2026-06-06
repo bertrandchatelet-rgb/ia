@@ -1,0 +1,7 @@
+# Python virtual environment
+PlantVSDisease/venv/
+PlantVSDisease/venv*/
+PlantVSDisease/__pycache__/
+PlantVSDisease/**/__pycache__/
+PlantVSDisease/**/*.py[cod]
+PlantVSDisease/.ipynb_checkpoints/
