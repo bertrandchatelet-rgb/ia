@@ -1,0 +1,28 @@
+artifact_path: /mnt/d/business/memetics/cand/cand2026/IA/github-ref/ColonCancer/mlruns/1/models/m-821cab1fac0a4ab7a41b0372a4f1875b/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.12.3
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.sklearn.XGBClassifier
+    model_format: ubj
+    xgb_version: 3.1.3
+is_signature_from_type_hint: false
+mlflow_version: 3.13.0
+model_id: m-821cab1fac0a4ab7a41b0372a4f1875b
+model_size_bytes: 213236
+model_uuid: m-821cab1fac0a4ab7a41b0372a4f1875b
+prompts: null
+run_id: 92d238e8baf64c1d8d41c361e0c2124a
+signature:
+  inputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1, 50]}}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-06-08 07:04:54.045484'

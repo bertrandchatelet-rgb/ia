@@ -1,0 +1,70 @@
+artifact_path: /mnt/d/business/memetics/cand/cand2026/IA/github-ref/ColonCancer/mlruns/1/models/m-a57bb3500ffc464a98703ba347965cb8/artifacts
+flavors:
+  lightgbm:
+    code: null
+    data: model.lgb
+    lgb_version: 4.6.0
+    model_class: lightgbm.basic.Booster
+    serialization_format: cloudpickle
+    skops_trusted_types: null
+  python_function:
+    data: model.lgb
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.lightgbm
+    python_version: 3.12.3
+is_signature_from_type_hint: false
+mlflow_version: 3.13.0
+model_id: m-a57bb3500ffc464a98703ba347965cb8
+model_size_bytes: 4720
+model_uuid: m-a57bb3500ffc464a98703ba347965cb8
+prompts: null
+run_id: 7115c848f8e74b91903f62d5ec28d75d
+signature:
+  inputs: '[{"type": "double", "name": "count_hsa-miR-6131", "required": true}, {"type":
+    "double", "name": "count_hsa-miR-451a", "required": true}, {"type": "double",
+    "name": "count_hsa-miR-3168", "required": true}, {"type": "double", "name": "count_hsa-miR-3197",
+    "required": true}, {"type": "double", "name": "count_hsa-miR-486-5p", "required":
+    true}, {"type": "double", "name": "count_hsa-miR-6126", "required": true}, {"type":
+    "double", "name": "count_hsa-let-7b-5p", "required": true}, {"type": "double",
+    "name": "count_hsa-miR-619-5p", "required": true}, {"type": "double", "name":
+    "count_hsa-miR-126-3p", "required": true}, {"type": "double", "name": "count_hsa-let-7i-5p",
+    "required": true}, {"type": "double", "name": "count_hsa-miR-10b-5p", "required":
+    true}, {"type": "double", "name": "count_hsa-miR-151a-3p", "required": true},
+    {"type": "double", "name": "count_hsa-miR-26a-5p", "required": true}, {"type":
+    "double", "name": "count_hsa-miR-1273h-5p", "required": true}, {"type": "double",
+    "name": "count_hsa-miR-25-3p", "required": true}, {"type": "double", "name": "count_hsa-miR-148a-3p",
+    "required": true}, {"type": "double", "name": "count_hsa-let-7a-5p", "required":
+    true}, {"type": "double", "name": "count_hsa-miR-122-5p", "required": true}, {"type":
+    "double", "name": "count_hsa-miR-3184-3p", "required": true}, {"type": "double",
+    "name": "count_hsa-miR-22-3p", "required": true}, {"type": "double", "name": "count_hsa-miR-2861",
+    "required": true}, {"type": "double", "name": "count_hsa-miR-92a-3p", "required":
+    true}, {"type": "double", "name": "count_hsa-let-7f-5p", "required": true}, {"type":
+    "double", "name": "count_hsa-miR-21-5p", "required": true}, {"type": "double",
+    "name": "count_hsa-miR-6727-5p", "required": true}, {"type": "double", "name":
+    "count_hsa-miR-4271", "required": true}, {"type": "double", "name": "count_hsa-miR-30d-5p",
+    "required": true}, {"type": "double", "name": "count_hsa-miR-10a-5p", "required":
+    true}, {"type": "double", "name": "count_hsa-miR-223-3p", "required": true}, {"type":
+    "double", "name": "count_hsa-miR-320a-3p", "required": true}, {"type": "double",
+    "name": "count_hsa-miR-5585-3p", "required": true}, {"type": "double", "name":
+    "count_hsa-miR-6870-3p", "required": true}, {"type": "double", "name": "count_hsa-miR-99a-5p",
+    "required": true}, {"type": "double", "name": "count_hsa-miR-23a-3p", "required":
+    true}, {"type": "double", "name": "count_hsa-miR-16-5p", "required": true}, {"type":
+    "double", "name": "count_hsa-miR-221-3p", "required": true}, {"type": "double",
+    "name": "count_hsa-miR-1285-5p", "required": true}, {"type": "double", "name":
+    "count_hsa-let-7g-5p", "required": true}, {"type": "double", "name": "count_hsa-miR-146a-5p",
+    "required": true}, {"type": "double", "name": "count_hsa-miR-101-3p", "required":
+    true}, {"type": "double", "name": "count_hsa-miR-19b-3p", "required": true}, {"type":
+    "double", "name": "count_hsa-miR-146b-5p", "required": true}, {"type": "double",
+    "name": "count_hsa-miR-4500", "required": true}, {"type": "double", "name": "count_hsa-miR-574-5p",
+    "required": true}, {"type": "double", "name": "count_hsa-miR-185-5p", "required":
+    true}, {"type": "double", "name": "count_hsa-miR-4508", "required": true}, {"type":
+    "double", "name": "count_hsa-miR-130a-3p", "required": true}, {"type": "double",
+    "name": "count_hsa-miR-1827", "required": true}, {"type": "double", "name": "count_hsa-miR-1237-5p",
+    "required": true}, {"type": "double", "name": "count_hsa-miR-1255b-2-3p", "required":
+    true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-06-07 19:02:34.213454'

@@ -1,0 +1,29 @@
+artifact_path: /mnt/d/business/memetics/cand/cand2026/IA/github-ref/ColonCancer/mlruns/1/models/m-6060b515542a47baa853572347121380/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.13.0
+model_id: m-6060b515542a47baa853572347121380
+model_size_bytes: 163365
+model_uuid: m-6060b515542a47baa853572347121380
+prompts: null
+run_id: 79f767a55c2c48bfb09dff302c3851c5
+signature:
+  inputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float32", "shape": [-1, 50]}}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "uint8", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-06-08 07:06:46.020322'
