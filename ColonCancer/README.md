@@ -1,6 +1,6 @@
-# miRNA Cancer Stage Classification (PRJNA755688-stage12)
+# RNA Cancer Stage Classification (PRJNA755688-stage12)
 
-Classification binaire **control vs stade II** à partir de données d'expression de RNAs (séquençage miRNA) — projet PRJNA755688-stage12.
+Classification binaire **control vs stade II** à partir de données d'expression de RNAs (séquençage RNA) — projet PRJNA755688-stage12.
 
 ## 📋 Notebooks
 
